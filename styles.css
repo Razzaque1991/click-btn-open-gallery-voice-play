@@ -1,0 +1,85 @@
+
+/* glary-shadow-strat */
+.service-header {
+    text-align: center;
+}
+.gallery {
+    display: none;
+} 
+  .service-img img {
+    display: inline-block;
+    width: 100%;
+    height: 250px;
+  }
+  .service-img{
+    position:relative;
+    overflow:hidden;
+  }
+  .srevice-icon {
+    background-color: rgba(162,112,162,.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    transition: 2s;
+  }
+  .service-img:hover .srevice-icon {
+    top:0px;
+  }
+  .srevice-icon ul {
+  display:flex;
+  padding:20px 5px;
+  }
+  .srevice-icon ul li{
+    list-style:none;
+  }
+  .srevice-icon ul li{
+    list-style:none;
+    color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  i.fa.fa-search{
+    font-size: 30px;
+  }
+  i.fa.fa-google{
+  font-size: 30px;	
+  }
+  i.fa.fa-laptop{
+  font-size: 30px;	
+  }
+  i.fa.fa-youtube{
+  font-size: 30px;	
+  }
+  i.fa.fa-facebook{
+  font-size: 30px;	
+  }
+  i.fa.fa-camera{
+  font-size: 30px;	
+  }
+  i.fa.fa-home{
+  font-size: 30px;	
+  }
+  .service-img:hover .srevice-icon ul li{
+    list-style:none;
+    color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  /* glary-shadow-end*/
+
+  @media (max-width: 576px) {
+    .service-header {
+        font-size: 0.8em; /* Adjust font size for smaller screens */
+        padding: 0.5em; /* Adjust padding for smaller screens */
+    }
+    
+    .button-galary {
+        display: flex;
+        flex-direction: column; /* Stack buttons vertically on smaller screens */
+    }
+
+    .gallery {
+        margin: 0; /* Adjust margin for smaller screens */
+    }
+}
